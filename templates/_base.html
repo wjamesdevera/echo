@@ -1,28 +1,18 @@
 {% load compress %}
 {% load static %}
 <!DOCTYPE html>
-<html lang="en" class="font-serif">
+<html lang="en" class="font-noto">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-        },
-      };
-    </script>
     <title>{{ title|default:'Echo:' }}</title>
     {% compress css %}
     <link rel="stylesheet"
         href="{% static 'src/output.css' %}">
-    {% endcompress %}
+    {% endcompress css %}
   </head>
-  <body>
-    {% block main %} {% endblock main %}
+  <body class="flex flex-col min-h-screen">
+    {% block main %} 
+    {% endblock main %}
   </body>
 </html>
