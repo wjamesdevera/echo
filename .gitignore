@@ -1,0 +1,117 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Django specific
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.dat
+*.csv
+*.env
+
+# If your virtualenv is within project directory
+venv/
+env/
+
+# If your virtualenv is in root directory
+/venv/
+/env/
+
+# Django migrations
+**/migrations/*
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn-integrity
+.pnp.*
+
+# React
+build/
+dist/
+*.map
+
+# Python
+.Python
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Editor and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.envrc
+.mr.developer.cfg
+python.env
+.env.bak
+.venv.bak
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
